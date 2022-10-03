@@ -45,7 +45,6 @@ const paginaViajes = async (req, res) => {
 
 const paginaTestimoniales = async (req, res) => {
 
-
     try {
         const testimoniales = await Testimonial.findAll()
 
